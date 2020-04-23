@@ -6502,7 +6502,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/wenbosun/CORNELL_HW/a/Stemtopia/stemtopia/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/xiaoqiang/Documents/STARTUP/Stemtopia/stemtopia/.next");
       return error;
     }
   };
@@ -17996,7 +17996,7 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/wenbosun/CORNELL_HW/a/Stemtopia/stemtopia/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
+module.exports = __webpack_require__(/*! /Users/xiaoqiang/Documents/STARTUP/Stemtopia/stemtopia/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
 
 
 /***/ }),
