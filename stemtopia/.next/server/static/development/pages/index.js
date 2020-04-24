@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -107,7 +107,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "/Users/wenbosun/CORNELL_HW/a/new/Stemtopia/stemtopia/components/Banner.js";
+    _jsxFileName = "/Users/xiaoqiang/Documents/STARTUP/Stemtopia/stemtopia/components/Banner.js";
 
 
 
@@ -204,7 +204,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "/Users/wenbosun/CORNELL_HW/a/new/Stemtopia/stemtopia/components/Contact.js";
+    _jsxFileName = "/Users/xiaoqiang/Documents/STARTUP/Stemtopia/stemtopia/components/Contact.js";
 
 
 
@@ -515,7 +515,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "/Users/wenbosun/CORNELL_HW/a/new/Stemtopia/stemtopia/components/Footer.js";
+    _jsxFileName = "/Users/xiaoqiang/Documents/STARTUP/Stemtopia/stemtopia/components/Footer.js";
 
 
 
@@ -719,7 +719,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "/Users/wenbosun/CORNELL_HW/a/new/Stemtopia/stemtopia/components/Header.js";
+    _jsxFileName = "/Users/xiaoqiang/Documents/STARTUP/Stemtopia/stemtopia/components/Header.js";
 
 
 
@@ -813,7 +813,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
 
 
-var _jsxFileName = "/Users/wenbosun/CORNELL_HW/a/new/Stemtopia/stemtopia/components/Layout.js";
+var _jsxFileName = "/Users/xiaoqiang/Documents/STARTUP/Stemtopia/stemtopia/components/Layout.js";
 
 
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -1020,7 +1020,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "/Users/wenbosun/CORNELL_HW/a/new/Stemtopia/stemtopia/components/Menu.js";
+    _jsxFileName = "/Users/xiaoqiang/Documents/STARTUP/Stemtopia/stemtopia/components/Menu.js";
 
 
 
@@ -1189,7 +1189,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "/Users/wenbosun/CORNELL_HW/a/new/Stemtopia/stemtopia/pages/index.js";
+    _jsxFileName = "/Users/xiaoqiang/Documents/STARTUP/Stemtopia/stemtopia/pages/index.js";
 
 
 
@@ -1267,7 +1267,7 @@ var _this = undefined,
       columnNumber: 15
     }
   }, "Play with our STEM toys")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/landing",
+    href: "/xuanke",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -1315,7 +1315,7 @@ var _this = undefined,
       columnNumber: 15
     }
   }, "Explore our Course Options")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/landing",
+    href: "/xuanke",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -1363,7 +1363,7 @@ var _this = undefined,
       columnNumber: 15
     }
   }, "Learn more about science and technology")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/landing",
+    href: "/xuanke",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -1411,7 +1411,7 @@ var _this = undefined,
       columnNumber: 15
     }
   }, "Bring your learning to play")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/landing",
+    href: "/xuanke",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -1457,34 +1457,34 @@ var _this = undefined,
       lineNumber: 61,
       columnNumber: 15
     }
-  }, "Massa libero")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "About Us")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 63,
       columnNumber: 13
     }
-  }, "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, "This is a mini course for 3-5 years old kids to help them to setup an idea of comparison. In the previous lesson  already knew how to compare two bunch of item and choose which buntch is greater by connecting line of them. In this lesson, kids will first learn how to use the Mr. Shark to represent the meaning of \"greater\". This in the future will be simpleize to greater and less symbol, which will be learned in their 1 grade class. Kids will also learn how to use their previous knowledge to solve a new problem. This is an important part of problem solving skills."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "actions",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 66,
       columnNumber: 13
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 67,
       columnNumber: 15
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/landing",
+    href: "/xuanke",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 68,
       columnNumber: 17
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -1492,7 +1492,7 @@ var _this = undefined,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 69,
       columnNumber: 19
     }
   }, "Get Started")))))))));
@@ -1517,7 +1517,7 @@ var _this = undefined,
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

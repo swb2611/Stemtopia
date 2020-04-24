@@ -17,7 +17,7 @@ export default () => (
               <h3>STEM Playground</h3>
               <p>Play with our STEM toys</p>
             </header>
-            <Link href="/landing">
+            <Link href="/xuanke">
               <a className="link primary"></a>
             </Link>
           </article>
@@ -28,7 +28,7 @@ export default () => (
               <h3>Course Offerings</h3>
               <p>Explore our Course Options</p>
             </header>
-            <Link href="/landing">
+            <Link href="/xuanke">
               <a className="link primary"></a>
             </Link>
           </article>
@@ -39,7 +39,7 @@ export default () => (
               <h3>Community News</h3>
               <p>Learn more about science and technology</p>
             </header>
-            <Link href="/landing">
+            <Link href="/xuanke">
               <a className="link primary"></a>
             </Link>
           </article>
@@ -50,7 +50,7 @@ export default () => (
               <h3>Outdoor Activities</h3>
               <p>Bring your learning to play</p>
             </header>
-            <Link href="/landing">
+            <Link href="/xuanke">
               <a className="link primary"></a>
             </Link>
           </article>
@@ -58,20 +58,14 @@ export default () => (
         <section id="two">
           <div className="inner">
             <header className="major">
-              <h2>Massa libero</h2>
+              <h2>About Us</h2>
             </header>
             <p>
-              Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-              libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-              Pellentesque condimentum sem. In efficitur ligula tate urna.
-              Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-              Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-              libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra
-              et feugiat tempus.
+            This is a mini course for 3-5 years old kids to help them to setup an idea of comparison. In the previous lesson  already knew how to compare two bunch of item and choose which buntch is greater by connecting line of them. In this lesson, kids will first learn how to use the Mr. Shark to represent the meaning of "greater". This in the future will be simpleize to greater and less symbol, which will be learned in their 1 grade class. Kids will also learn how to use their previous knowledge to solve a new problem. This is an important part of problem solving skills.
             </p>
             <ul className="actions">
               <li>
-                <Link href="/landing">
+                <Link href="/xuanke">
                   <a className="buttona next">Get Started</a>
                 </Link>
               </li>
