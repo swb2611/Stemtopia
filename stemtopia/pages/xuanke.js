@@ -4,14 +4,6 @@ import React from "react";
 import Layout from "../components/Layout";
 import YouTube from "react-youtube";
 import ChatBot from "react-simple-chatbot";
-// import dynamic from "next/dynamic";
-
-// const ChatBot = dynamic(
-//   () => import("react-simple-chatbot").then((mod) => mod.ChatBot),
-//   {
-//     ssr: false,
-//   }
-// );
 
 const steps = [
   {
@@ -21,19 +13,56 @@ const steps = [
   },
   {
     id: "2",
+    component: (
+      <div>
+        <img className="questionimg" src="/static/images/question.png" alt="" />
+      </div>
+    ),
+    trigger: "3",
+  },
+
+  {
+    id: "3",
     options: [
-      { value: 1, label: "Left Clown Fish >", trigger: "3" },
-      { value: 2, label: "Right Angel Fish <", trigger: "4" },
+      { value: 1, label: "Left Clown Fish >", trigger: "4" },
+      { value: 2, label: "Right Angel Fish <", trigger: "6" },
     ],
   },
   {
-    id: "3",
-    message: "Wrong answer, try again.",
+    id: "4",
+    message: "Wrong answer, Can you tell us your thinking process?",
+    trigger: "5",
+  },
+  {
+    id: "5",
+    user: true,
     trigger: "2",
   },
   {
-    id: "4",
-    message: "Awesome! You are a telepath!",
+    id: "6",
+    message:
+      "Awesome! You got the right answer! Can you tell us your thinking process?",
+    trigger: "7",
+  },
+  {
+    id: "7",
+    user: true,
+    trigger: "8",
+  },
+  {
+    id: "8",
+    message:
+      "Can you tell us which computational thinking method did you used?",
+    trigger: "9",
+  },
+  {
+    id: "9",
+    user: true,
+    trigger: "10",
+  },
+  {
+    id: "9",
+    message: "That is awesome! Good job!",
     end: true,
   },
 ];
@@ -64,17 +93,25 @@ export default () => (
           <div>
             <div className="pingxing">
               <YouTube className="myvideo" videoId="c259oePjiV8" opts={opts} />
-              <ChatBot className="myvideo" steps={steps} />
+              {/* <ChatBot className="myvideo" steps={steps} /> */}
+            </div>
+            <div className="myvideoa">
+              <a href="/question" className="buttona">
+                Evaluation question
+              </a>
             </div>
             <div className="box">
               <p>
-                Felis sagittis eget tempus primis in faucibus vestibulum.
-                Blandit adipiscing eu felis iaculis volutpat ac adipiscing
-                accumsan eu faucibus. Integer ac pellentesque praesent tincidunt
-                felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum
-                primis in faucibus vestibulum. Blandit adipiscing eu ipsum
-                primis in faucibus vestibulum. Blandit adipiscing eu felis
-                iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum.
+                This is a mini course for 3-5 years old kids to help them to
+                setup an idea of comparison. In the previous lesson already knew
+                how to compare two bunch of item and choose which buntch is
+                greater by connecting line of them. In this lesson, kids will
+                first learn how to use the Mr. Shark to represent the meaning of
+                "greater". This in the future will be simpleize to greater and
+                less symbol, which will be learned in their 1 grade class. Kids
+                will also learn how to use their previous knowledge to solve a
+                new problem. This is an important part of problem solving
+                skills.
               </p>
             </div>
           </div>

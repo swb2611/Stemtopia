@@ -1,36 +1,41 @@
-///
-/// Forty by HTML5 UP
-/// html5up.net | @ajlkn
-/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-///
+// ///
+// /// Forty by HTML5 UP
+// /// html5up.net | @ajlkn
+// /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+// ///
 
-/* Box */
+// /* Box */
 
-	.box {
-		border: solid 1px _palette(border);
-		margin-bottom: _size(element-margin);
-		padding: 1.5em;
+.box {
+  border: solid 1px _palette(border);
+  margin-bottom: _size(element-margin);
+  padding: 1.5em;
 
-		> :last-child,
-		> :last-child > :last-child,
-		> :last-child > :last-child > :last-child {
-			margin-bottom: 0;
-		}
+  > :last-child,
+  > :last-child > :last-child,
+  > :last-child > :last-child > :last-child {
+    margin-bottom: 0;
+  }
 
-		&.alt {
-			border: 0;
-			border-radius: 0;
-			padding: 0;
-		}
-	}
-
-
+  &.alt {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+  }
+}
 
 .myvideo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+}
+
+.myvideoa {
+  display: block;
+  margin-left: 450px;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
 
 .pingxing {
@@ -38,4 +43,10 @@
   flex-direction: row;
   justify-content: center;
   align-self: stretch;
+}
+
+.questionimg {
+  display: block;
+  margin: 0 0 0 0;
+  width: 100%;
 }

@@ -8,7 +8,7 @@ const Banner = (props) => (
         <p>A AI based computational thinking class for kid age from 10-14.</p>
         <ul className="actions">
           <li>
-            <a href="#one" className="button next scrolly">
+            <a href="#one" className="buttona next scrolly">
               Get Started
             </a>
           </li>
